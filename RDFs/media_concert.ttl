@@ -6360,57 +6360,6 @@
         lily:performAs <Miliam_Hildegard_von_Guropius> ;
         # lily:additionalInformation ""@ja ;
     ], [
-        schema:name "赤尾ひかる"@ja ;
-        lily:resource <http://www.wikidata.org/entity/Q28685785> ;
-        lily:performAs <Hitotsuyanagi_Riri> ;
-        # lily:additionalInformation ""@ja ;
-    ], [
-        schema:name "夏吉ゆうこ"@ja ;
-        lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
-        lily:performAs <Shirai_Yuyu> ;
-        # lily:additionalInformation ""@ja ;
-    ], [
-        schema:name "井澤美香子"@ja ;
-        lily:resource
-            <https://www.wikidata.org/wiki/Q20038660>,
-            <http://ja.dbpedia.org/resource/井澤美香子> ;
-        lily:performAs <Kaede_Johan_Nouvel> ;
-        # lily:additionalInformation ""@ja ;
-    ], [
-        schema:name "西本りみ"@ja ;
-        lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
-        lily:performAs <Futagawa_Fumi> ;
-        # lily:additionalInformation ""@ja ;
-    ], [
-        schema:name "紡木吏佐"@ja ;
-        lily:resource <https://www.wikidata.org/wiki/Q55534197> ;
-        lily:performAs <Ando_Tazusa> ;
-        # lily:additionalInformation ""@ja ;
-    ], [
-        schema:name "岩田陽葵"@ja ;
-        lily:resource
-            <https://www.wikidata.org/wiki/Q16264369>,
-            <http://ja.dbpedia.org/resource/岩田陽葵> ;
-        lily:performAs <Yoshimura_Thi_Mai> ;
-        # lily:additionalInformation ""@ja ;
-    ], [
-        schema:name "星守紗凪"@ja ;
-        lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
-        lily:performAs <Kuo_Shenlin> ;
-        # lily:additionalInformation ""@ja ;
-    ], [
-        schema:name "遠野ひかる"@ja ;
-        lily:resource <https://www.wikidata.org/wiki/Q48762060> ;
-        lily:performAs <Wang_Yujia> ;
-        # lily:additionalInformation ""@ja ;
-    ], [
-        schema:name "高橋花林"@ja ;
-        lily:resource
-            <https://www.wikidata.org/wiki/Q20041113>,
-            <http://ja.dbpedia.org/resource/高橋花林> ;
-        lily:performAs <Miliam_Hildegard_von_Guropius> ;
-        # lily:additionalInformation ""@ja ;
-    ], [
         schema:name "藤井彩加"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
         lily:performAs <Aizawa_Kazuha> ;
@@ -6466,6 +6415,2124 @@
             <http://ja.dbpedia.org/resource/富田美憂> ;
         lily:performAs <Sadamori_Himeka> ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "船戸ゆり絵"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q97347588>,
+            <http://ja.dbpedia.org/resource/船戸ゆり絵> ;
+        lily:performAs <Yokota_Haruna> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "石見舞菜香"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q29479266>,
+            <http://ja.dbpedia.org/resource/石見舞菜香> ;
+        lily:performAs <Shiozaki_Suzume> ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Concert ;
+.
+
+<Concert_Lilys_Dreaming_Party_Day1_Soiree>
+    lily:genre "ライブ"@ja ;
+    rdfs:label "ライブイベント「Lily’s Dreamin’ ☆ Party」Day1 夜公演"^^xsd:string ;
+    schema:name "ライブイベント「Lily’s Dreamin’ ☆ Party」Day1 夜公演"@ja ;
+    schema:alternateName "Lily’s Dreamin’ ☆ Party Day1 夜公演"@ja ;
+    schema:superEvent <Concert_Lilys_Dreaming_Party> ;
+    schema:doorTime
+        "2024-02-24T17:00:00+09:00"^^xsd:dateTime ;
+    lily:showTime
+        "2024-02-24T18:00:00+09:00"^^xsd:dateTime ;
+    lily:setList [
+        schema:name "Edel Lilie"@ja ;
+        lily:listOrder "1"^^xsd:integer ;
+        lily:resource <Song_Edel_Lilie> ;
+        lily:cast [
+            schema:name "赤尾ひかる"@ja ;
+            lily:resource <http://www.wikidata.org/entity/Q28685785> ;
+            lily:performAs <Hitotsuyanagi_Riri> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏吉ゆうこ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
+            lily:performAs <Shirai_Yuyu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "井澤美香子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20038660>,
+                <http://ja.dbpedia.org/resource/井澤美香子> ;
+            lily:performAs <Kaede_Johan_Nouvel> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西本りみ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
+            lily:performAs <Futagawa_Fumi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "紡木吏佐"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q55534197> ;
+            lily:performAs <Ando_Tazusa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "岩田陽葵"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q16264369>,
+                <http://ja.dbpedia.org/resource/岩田陽葵> ;
+            lily:performAs <Yoshimura_Thi_Mai> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "星守紗凪"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+            lily:performAs <Kuo_Shenlin> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "遠野ひかる"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q48762060> ;
+            lily:performAs <Wang_Yujia> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "高橋花林"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041113>,
+                <http://ja.dbpedia.org/resource/高橋花林> ;
+            lily:performAs <Miliam_Hildegard_von_Guropius> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "想い出が溢れてる"@ja ;
+        lily:listOrder "2"^^xsd:integer ;
+        lily:resource <Song_Omoide_Ga_Afureteru> ;
+        lily:cast [
+            schema:name "赤尾ひかる"@ja ;
+            lily:resource <http://www.wikidata.org/entity/Q28685785> ;
+            lily:performAs <Hitotsuyanagi_Riri> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏吉ゆうこ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
+            lily:performAs <Shirai_Yuyu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "井澤美香子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20038660>,
+                <http://ja.dbpedia.org/resource/井澤美香子> ;
+            lily:performAs <Kaede_Johan_Nouvel> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西本りみ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
+            lily:performAs <Futagawa_Fumi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "紡木吏佐"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q55534197> ;
+            lily:performAs <Ando_Tazusa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "岩田陽葵"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q16264369>,
+                <http://ja.dbpedia.org/resource/岩田陽葵> ;
+            lily:performAs <Yoshimura_Thi_Mai> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "星守紗凪"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+            lily:performAs <Kuo_Shenlin> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "遠野ひかる"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q48762060> ;
+            lily:performAs <Wang_Yujia> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "高橋花林"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041113>,
+                <http://ja.dbpedia.org/resource/高橋花林> ;
+            lily:performAs <Miliam_Hildegard_von_Guropius> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "～MC①～"@ja ;
+        lily:listOrder "3"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "赤尾ひかる"@ja ;
+            lily:resource <http://www.wikidata.org/entity/Q28685785> ;
+            lily:performAs <Hitotsuyanagi_Riri> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏吉ゆうこ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
+            lily:performAs <Shirai_Yuyu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "井澤美香子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20038660>,
+                <http://ja.dbpedia.org/resource/井澤美香子> ;
+            lily:performAs <Kaede_Johan_Nouvel> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西本りみ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
+            lily:performAs <Futagawa_Fumi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "紡木吏佐"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q55534197> ;
+            lily:performAs <Ando_Tazusa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "岩田陽葵"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q16264369>,
+                <http://ja.dbpedia.org/resource/岩田陽葵> ;
+            lily:performAs <Yoshimura_Thi_Mai> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "星守紗凪"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+            lily:performAs <Kuo_Shenlin> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "遠野ひかる"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q48762060> ;
+            lily:performAs <Wang_Yujia> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "高橋花林"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041113>,
+                <http://ja.dbpedia.org/resource/高橋花林> ;
+            lily:performAs <Miliam_Hildegard_von_Guropius> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Adabana"@ja ;
+        lily:listOrder "4"^^xsd:integer ;
+        lily:resource <Song_Adabana> ;
+        lily:cast [
+            schema:name "赤尾ひかる"@ja ;
+            lily:resource <http://www.wikidata.org/entity/Q28685785> ;
+            lily:performAs <Hitotsuyanagi_Riri> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏吉ゆうこ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
+            lily:performAs <Shirai_Yuyu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "井澤美香子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20038660>,
+                <http://ja.dbpedia.org/resource/井澤美香子> ;
+            lily:performAs <Kaede_Johan_Nouvel> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西本りみ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
+            lily:performAs <Futagawa_Fumi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "紡木吏佐"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q55534197> ;
+            lily:performAs <Ando_Tazusa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "岩田陽葵"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q16264369>,
+                <http://ja.dbpedia.org/resource/岩田陽葵> ;
+            lily:performAs <Yoshimura_Thi_Mai> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "星守紗凪"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+            lily:performAs <Kuo_Shenlin> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "遠野ひかる"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q48762060> ;
+            lily:performAs <Wang_Yujia> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "高橋花林"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041113>,
+                <http://ja.dbpedia.org/resource/高橋花林> ;
+            lily:performAs <Miliam_Hildegard_von_Guropius> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Wish Drop(梨璃＆夢結ver.)"@ja ;
+        lily:listOrder "5"^^xsd:integer ;
+        lily:resource <Song_Wish_Drop_Riri_Yuyu_Ver> ;
+        lily:cast [
+            schema:name "赤尾ひかる"@ja ;
+            lily:resource <http://www.wikidata.org/entity/Q28685785> ;
+            lily:performAs <Hitotsuyanagi_Riri> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏吉ゆうこ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
+            lily:performAs <Shirai_Yuyu> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "～MC②～"@ja ;
+        lily:listOrder "6"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "赤尾ひかる"@ja ;
+            lily:resource <http://www.wikidata.org/entity/Q28685785> ;
+            lily:performAs <Hitotsuyanagi_Riri> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏吉ゆうこ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
+            lily:performAs <Shirai_Yuyu> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "La Vie en rose 〜楓・J・ヌーベルの優雅な日常〜"@ja ;
+        lily:listOrder "7"^^xsd:integer ;
+        lily:resource <Song_La_Vie_En_Rose> ;
+        lily:cast [
+            schema:name "井澤美香子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20038660>,
+                <http://ja.dbpedia.org/resource/井澤美香子> ;
+            lily:performAs <Kaede_Johan_Nouvel> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "マッシブ！"@ja ;
+        lily:listOrder "8"^^xsd:integer ;
+        lily:resource <Song_Massive> ;
+        lily:cast [
+            schema:name "西本りみ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
+            lily:performAs <Futagawa_Fumi> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "ピンキー・プロミス"@ja ;
+        lily:listOrder "9"^^xsd:integer ;
+        lily:resource <Song_Pinky_Promise> ;
+        lily:cast [
+            schema:name "高橋花林"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041113>,
+                <http://ja.dbpedia.org/resource/高橋花林> ;
+            lily:performAs <Miliam_Hildegard_von_Guropius> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Pretty Please"@ja ;
+        lily:listOrder "10"^^xsd:integer ;
+        lily:resource <Song_Pretty_Please> ;
+        lily:cast [
+            schema:name "遠野ひかる"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q48762060> ;
+            lily:performAs <Wang_Yujia> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Everlasting"@ja ;
+        lily:listOrder "11"^^xsd:integer ;
+        lily:resource <Song_Everlasting> ;
+        lily:cast [
+            schema:name "星守紗凪"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+            lily:performAs <Kuo_Shenlin> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "運命のFilament"@ja ;
+        lily:listOrder "12"^^xsd:integer ;
+        lily:resource <Song_Unmei_No_Filament> ;
+        lily:cast [
+            schema:name "夏吉ゆうこ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
+            lily:performAs <Shirai_Yuyu> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "パラライザ"@ja ;
+        lily:listOrder "13"^^xsd:integer ;
+        lily:resource <Song_Paralyzer> ;
+        lily:cast [
+            schema:name "紡木吏佐"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q55534197> ;
+            lily:performAs <Ando_Tazusa> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Veins of FLOWER"@ja ;
+        lily:listOrder "14"^^xsd:integer ;
+        lily:resource <Song_Veins_Of_FLOWER> ;
+        lily:cast [
+            schema:name "岩田陽葵"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q16264369>,
+                <http://ja.dbpedia.org/resource/岩田陽葵> ;
+            lily:performAs <Yoshimura_Thi_Mai> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "チェリッシュ♡"@ja ;
+        lily:listOrder "15"^^xsd:integer ;
+        lily:resource <Song_Cherish> ;
+        lily:cast [
+            schema:name "赤尾ひかる"@ja ;
+            lily:resource <http://www.wikidata.org/entity/Q28685785> ;
+            lily:performAs <Hitotsuyanagi_Riri> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "リリィ♡リリィ♡GOGOリリィ♡"@ja ;
+        lily:listOrder "16"^^xsd:integer ;
+        lily:resource <Song_Lily_Lily_Go_Go_Lily> ;
+        lily:cast [
+            schema:name "井澤美香子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20038660>,
+                <http://ja.dbpedia.org/resource/井澤美香子> ;
+            lily:performAs <Kaede_Johan_Nouvel> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西本りみ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
+            lily:performAs <Futagawa_Fumi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "高橋花林"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041113>,
+                <http://ja.dbpedia.org/resource/高橋花林> ;
+            lily:performAs <Miliam_Hildegard_von_Guropius> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "～MC③～"@ja ;
+        lily:listOrder "17"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "赤尾ひかる"@ja ;
+            lily:resource <http://www.wikidata.org/entity/Q28685785> ;
+            lily:performAs <Hitotsuyanagi_Riri> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏吉ゆうこ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
+            lily:performAs <Shirai_Yuyu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "井澤美香子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20038660>,
+                <http://ja.dbpedia.org/resource/井澤美香子> ;
+            lily:performAs <Kaede_Johan_Nouvel> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西本りみ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
+            lily:performAs <Futagawa_Fumi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "紡木吏佐"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q55534197> ;
+            lily:performAs <Ando_Tazusa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "岩田陽葵"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q16264369>,
+                <http://ja.dbpedia.org/resource/岩田陽葵> ;
+            lily:performAs <Yoshimura_Thi_Mai> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "星守紗凪"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+            lily:performAs <Kuo_Shenlin> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "遠野ひかる"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q48762060> ;
+            lily:performAs <Wang_Yujia> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "高橋花林"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041113>,
+                <http://ja.dbpedia.org/resource/高橋花林> ;
+            lily:performAs <Miliam_Hildegard_von_Guropius> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "大切を数えよう"@ja ;
+        lily:listOrder "18"^^xsd:integer ;
+        lily:resource <Song_Taisetsu_Wo_Kazoeyou> ;
+        lily:cast [
+            schema:name "赤尾ひかる"@ja ;
+            lily:resource <http://www.wikidata.org/entity/Q28685785> ;
+            lily:performAs <Hitotsuyanagi_Riri> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏吉ゆうこ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
+            lily:performAs <Shirai_Yuyu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "井澤美香子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20038660>,
+                <http://ja.dbpedia.org/resource/井澤美香子> ;
+            lily:performAs <Kaede_Johan_Nouvel> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西本りみ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
+            lily:performAs <Futagawa_Fumi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "紡木吏佐"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q55534197> ;
+            lily:performAs <Ando_Tazusa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "岩田陽葵"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q16264369>,
+                <http://ja.dbpedia.org/resource/岩田陽葵> ;
+            lily:performAs <Yoshimura_Thi_Mai> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "星守紗凪"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+            lily:performAs <Kuo_Shenlin> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "遠野ひかる"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q48762060> ;
+            lily:performAs <Wang_Yujia> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "高橋花林"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041113>,
+                <http://ja.dbpedia.org/resource/高橋花林> ;
+            lily:performAs <Miliam_Hildegard_von_Guropius> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "トウメイダイアリー"@ja ;
+        lily:listOrder "19"^^xsd:integer ;
+        lily:resource <Song_Toumei_Diary> ;
+        lily:cast [
+            schema:name "赤尾ひかる"@ja ;
+            lily:resource <http://www.wikidata.org/entity/Q28685785> ;
+            lily:performAs <Hitotsuyanagi_Riri> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏吉ゆうこ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
+            lily:performAs <Shirai_Yuyu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "井澤美香子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20038660>,
+                <http://ja.dbpedia.org/resource/井澤美香子> ;
+            lily:performAs <Kaede_Johan_Nouvel> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西本りみ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
+            lily:performAs <Futagawa_Fumi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "紡木吏佐"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q55534197> ;
+            lily:performAs <Ando_Tazusa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "岩田陽葵"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q16264369>,
+                <http://ja.dbpedia.org/resource/岩田陽葵> ;
+            lily:performAs <Yoshimura_Thi_Mai> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "星守紗凪"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+            lily:performAs <Kuo_Shenlin> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "遠野ひかる"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q48762060> ;
+            lily:performAs <Wang_Yujia> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "高橋花林"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041113>,
+                <http://ja.dbpedia.org/resource/高橋花林> ;
+            lily:performAs <Miliam_Hildegard_von_Guropius> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "OVERFLOW"@ja ;
+        lily:listOrder "20"^^xsd:integer ;
+        lily:resource <Song_OVERFLOW> ;
+        lily:cast [
+            schema:name "赤尾ひかる"@ja ;
+            lily:resource <http://www.wikidata.org/entity/Q28685785> ;
+            lily:performAs <Hitotsuyanagi_Riri> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏吉ゆうこ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
+            lily:performAs <Shirai_Yuyu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "井澤美香子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20038660>,
+                <http://ja.dbpedia.org/resource/井澤美香子> ;
+            lily:performAs <Kaede_Johan_Nouvel> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西本りみ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
+            lily:performAs <Futagawa_Fumi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "紡木吏佐"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q55534197> ;
+            lily:performAs <Ando_Tazusa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "岩田陽葵"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q16264369>,
+                <http://ja.dbpedia.org/resource/岩田陽葵> ;
+            lily:performAs <Yoshimura_Thi_Mai> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "星守紗凪"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+            lily:performAs <Kuo_Shenlin> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "遠野ひかる"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q48762060> ;
+            lily:performAs <Wang_Yujia> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "高橋花林"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041113>,
+                <http://ja.dbpedia.org/resource/高橋花林> ;
+            lily:performAs <Miliam_Hildegard_von_Guropius> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "～MC④～"@ja ;
+        lily:listOrder "21"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "赤尾ひかる"@ja ;
+            lily:resource <http://www.wikidata.org/entity/Q28685785> ;
+            lily:performAs <Hitotsuyanagi_Riri> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏吉ゆうこ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
+            lily:performAs <Shirai_Yuyu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "井澤美香子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20038660>,
+                <http://ja.dbpedia.org/resource/井澤美香子> ;
+            lily:performAs <Kaede_Johan_Nouvel> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西本りみ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
+            lily:performAs <Futagawa_Fumi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "紡木吏佐"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q55534197> ;
+            lily:performAs <Ando_Tazusa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "岩田陽葵"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q16264369>,
+                <http://ja.dbpedia.org/resource/岩田陽葵> ;
+            lily:performAs <Yoshimura_Thi_Mai> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "星守紗凪"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+            lily:performAs <Kuo_Shenlin> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "遠野ひかる"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q48762060> ;
+            lily:performAs <Wang_Yujia> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "高橋花林"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041113>,
+                <http://ja.dbpedia.org/resource/高橋花林> ;
+            lily:performAs <Miliam_Hildegard_von_Guropius> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Never Ending Dream"@ja ;
+        lily:listOrder "22"^^xsd:integer ;
+        lily:resource <Song_Never_Ending_Dream> ;
+        lily:cast [
+            schema:name "赤尾ひかる"@ja ;
+            lily:resource <http://www.wikidata.org/entity/Q28685785> ;
+            lily:performAs <Hitotsuyanagi_Riri> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏吉ゆうこ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
+            lily:performAs <Shirai_Yuyu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "井澤美香子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20038660>,
+                <http://ja.dbpedia.org/resource/井澤美香子> ;
+            lily:performAs <Kaede_Johan_Nouvel> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西本りみ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
+            lily:performAs <Futagawa_Fumi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "紡木吏佐"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q55534197> ;
+            lily:performAs <Ando_Tazusa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "岩田陽葵"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q16264369>,
+                <http://ja.dbpedia.org/resource/岩田陽葵> ;
+            lily:performAs <Yoshimura_Thi_Mai> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "星守紗凪"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+            lily:performAs <Kuo_Shenlin> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "遠野ひかる"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q48762060> ;
+            lily:performAs <Wang_Yujia> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "高橋花林"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041113>,
+                <http://ja.dbpedia.org/resource/高橋花林> ;
+            lily:performAs <Miliam_Hildegard_von_Guropius> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:ConcertDetail ;
+.
+
+<Concert_Lilys_Dreaming_Party_Day2_Matinee>
+    lily:genre "ライブ"@ja ;
+    rdfs:label "ライブイベント「Lily’s Dreamin’ ☆ Party」Day2 昼公演"^^xsd:string ;
+    schema:name "ライブイベント「Lily’s Dreamin’ ☆ Party」Day2 昼公演"@ja ;
+    schema:alternateName "Lily’s Dreamin’ ☆ Party Day2 昼公演"@ja ;
+    schema:superEvent <Concert_Lilys_Dreaming_Party> ;
+    schema:doorTime
+        "2024-02-25T13:00:00+09:00"^^xsd:dateTime ;
+    lily:showTime
+        "2021-12-25T14:00:00+09:00"^^xsd:dateTime ;
+    lily:setList [
+        schema:name "～シーン①～"@ja ;
+        lily:listOrder "1"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "藤井彩加"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏目愛海"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q47582342> ;
+            lily:performAs <Sasaki_Ran> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "三村遙佳"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
+            lily:performAs <Hatsukano_Yo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "野中深愛"@ja ;
+            # lily:resource  ;
+            lily:performAs <Serizawa_Chikaru> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Fringed Iris"@ja ;
+        lily:listOrder "2"^^xsd:integer ;
+        lily:resource <Song_Fringed_Iris> ;
+        lily:cast [
+            schema:name "藤井彩加"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏目愛海"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q47582342> ;
+            lily:performAs <Sasaki_Ran> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "三村遙佳"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
+            lily:performAs <Hatsukano_Yo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "野中深愛"@ja ;
+            # lily:resource  ;
+            lily:performAs <Serizawa_Chikaru> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Multicolored Flowers"@ja ;
+        lily:listOrder "3"^^xsd:integer ;
+        lily:resource <Song_Multicolored_Flowers> ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ],  [
+        schema:name "～MC①～"@ja ;
+        lily:listOrder "4"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "藤井彩加"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏目愛海"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q47582342> ;
+            lily:performAs <Sasaki_Ran> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "三村遙佳"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
+            lily:performAs <Hatsukano_Yo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "野中深愛"@ja ;
+            # lily:resource  ;
+            lily:performAs <Serizawa_Chikaru> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Resonant Hearts"@ja ;
+        lily:listOrder "5"^^xsd:integer ;
+        lily:resource <Song_Resonant_Hearts> ;
+        lily:cast [
+            schema:name "藤井彩加"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏目愛海"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q47582342> ;
+            lily:performAs <Sasaki_Ran> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "三村遙佳"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
+            lily:performAs <Hatsukano_Yo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "野中深愛"@ja ;
+            # lily:resource  ;
+            lily:performAs <Serizawa_Chikaru> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Treasure Every Day!"@ja ;
+        lily:listOrder "6"^^xsd:integer ;
+        lily:resource <Song_Treasure_Every_Day> ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Edel Lilie（Last Bullet MIX）"@ja ;
+        lily:listOrder "7"^^xsd:integer ;
+        lily:resource <Song_Edel_Lilie_Last_Bullet_MIX> ;
+        lily:cast [
+            schema:name "藤井彩加"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "～MC②～"@ja ;
+        lily:listOrder "8"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Gonna be OK!"@ja ;
+        lily:listOrder "9"^^xsd:integer ;
+        lily:resource <Song_Gonna_Be_OK> ;
+        lily:cast [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "ひだまり"@ja ;
+        lily:listOrder "10"^^xsd:integer ;
+        lily:resource <Song_Hidamari> ;
+        lily:cast [
+            schema:name "夏目愛海"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q47582342> ;
+            lily:performAs <Sasaki_Ran> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Good-bye My Rainy Days"@ja ;
+        lily:listOrder "11"^^xsd:integer ;
+        lily:resource <Song_Good_Bye_My_Rainy_Days> ;
+        lily:cast [
+            schema:name "三村遙佳"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
+            lily:performAs <Hatsukano_Yo> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "hope"@ja ;
+        lily:listOrder "12"^^xsd:integer ;
+        lily:resource <Song_Hope> ;
+        lily:cast [
+            schema:name "野中深愛"@ja ;
+            # lily:resource  ;
+            lily:performAs <Serizawa_Chikaru> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Vertical Line"@ja ;
+        lily:listOrder "13"^^xsd:integer ;
+        lily:resource <Song_Vertical_Line> ;
+        lily:cast [
+            schema:name "藤井彩加"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "REFLECTIONS"@ja ;
+        lily:listOrder "14"^^xsd:integer ;
+        lily:resource <Song_REFLECTIONS> ;
+        lily:cast [
+            schema:name "藤井彩加"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏目愛海"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q47582342> ;
+            lily:performAs <Sasaki_Ran> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "三村遙佳"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
+            lily:performAs <Hatsukano_Yo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "野中深愛"@ja ;
+            # lily:resource  ;
+            lily:performAs <Serizawa_Chikaru> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "集貝はな"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q74548472>,
+                <https://ja.dbpedia.org/resource/集貝はな> ;
+            lily:performAs <Matsumura_Fuka> ;
+            #lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "直田姫奈"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q64783118>,
+                <http://ja.dbpedia.org/resource/直田姫奈> ;
+            lily:performAs <Kariya_Higure> ;
+        # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "～MC③～"@ja ;
+        lily:listOrder "15"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "藤井彩加"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏目愛海"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q47582342> ;
+            lily:performAs <Sasaki_Ran> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "三村遙佳"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
+            lily:performAs <Hatsukano_Yo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "野中深愛"@ja ;
+            # lily:resource  ;
+            lily:performAs <Serizawa_Chikaru> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "集貝はな"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q74548472>,
+                <https://ja.dbpedia.org/resource/集貝はな> ;
+            lily:performAs <Matsumura_Fuka> ;
+            #lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "直田姫奈"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q64783118>,
+                <http://ja.dbpedia.org/resource/直田姫奈> ;
+            lily:performAs <Kariya_Higure> ;
+        # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "蕾の中の奇跡"@ja;
+        lily:listOrder "16"^^xsd:integer ;
+        lily:resource <Song_Tsubomi_No_Naka_No_Kiseki> ;
+        lily:cast [
+            schema:name "藤井彩加"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏目愛海"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q47582342> ;
+            lily:performAs <Sasaki_Ran> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "三村遙佳"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
+            lily:performAs <Hatsukano_Yo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "野中深愛"@ja ;
+            # lily:resource  ;
+            lily:performAs <Serizawa_Chikaru> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "リリィ♡リリィ♡GOGOリリィ♡"@ja ;
+        lily:listOrder "17"^^xsd:integer ;
+        lily:resource <Song_Lily_Lily_Go_Go_Lily> ;
+        lily:cast [
+            schema:name "夏目愛海"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q47582342> ;
+            lily:performAs <Sasaki_Ran> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "～MC④～"@ja ;
+        lily:listOrder "18"^^xsd:integer ;
+        lily:cast [
+            schema:name "藤井彩加"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏目愛海"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q47582342> ;
+            lily:performAs <Sasaki_Ran> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "三村遙佳"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
+            lily:performAs <Hatsukano_Yo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "野中深愛"@ja ;
+            # lily:resource  ;
+            lily:performAs <Serizawa_Chikaru> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Never Ending Dream"@ja ;
+        lily:listOrder "19"^^xsd:integer ;
+        lily:resource <Song_Never_Ending_Dream> ;
+        lily:cast [
+            schema:name "藤井彩加"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏目愛海"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q47582342> ;
+            lily:performAs <Sasaki_Ran> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "三村遙佳"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
+            lily:performAs <Hatsukano_Yo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "野中深愛"@ja ;
+            # lily:resource  ;
+            lily:performAs <Serizawa_Chikaru> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:ConcertDetail ;
+.
+
+<Concert_Lilys_Dreaming_Party_Day2_Soiree>
+    lily:genre "ライブ"@ja ;
+    rdfs:label "ライブイベント「Lily’s Dreamin’ ☆ Party」Day2 夜公演"^^xsd:string ;
+    schema:name "ライブイベント「Lily’s Dreamin’ ☆ Party」Day2 夜公演"@ja ;
+    schema:alternateName "Lily’s Dreamin’ ☆ Party Day2 夜公演"@ja ;
+    schema:superEvent <Concert_Lilys_Dreaming_Party> ;
+    schema:doorTime
+        "2024-02-25T17:00:00+09:00"^^xsd:dateTime ;
+    lily:showTime
+        "2021-12-25T19:00:00+09:00"^^xsd:dateTime ;
+    lily:setList [
+        schema:name "～シーン①～"@ja ;
+        lily:listOrder "1"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "藤井彩加"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏目愛海"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q47582342> ;
+            lily:performAs <Sasaki_Ran> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "三村遙佳"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
+            lily:performAs <Hatsukano_Yo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "野中深愛"@ja ;
+            # lily:resource  ;
+            lily:performAs <Serizawa_Chikaru> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Multicolored Flowers"@ja ;
+        lily:listOrder "2"^^xsd:integer ;
+        lily:resource <Song_Multicolored_Flowers> ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Fringed Iris"@ja ;
+        lily:listOrder "3"^^xsd:integer ;
+        lily:resource <Song_Fringed_Iris> ;
+        lily:cast [
+            schema:name "藤井彩加"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏目愛海"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q47582342> ;
+            lily:performAs <Sasaki_Ran> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "三村遙佳"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
+            lily:performAs <Hatsukano_Yo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "野中深愛"@ja ;
+            # lily:resource  ;
+            lily:performAs <Serizawa_Chikaru> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "～MC①～"@ja ;
+        lily:listOrder "4"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "藤井彩加"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏目愛海"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q47582342> ;
+            lily:performAs <Sasaki_Ran> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "三村遙佳"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
+            lily:performAs <Hatsukano_Yo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "野中深愛"@ja ;
+            # lily:resource  ;
+            lily:performAs <Serizawa_Chikaru> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Resonant Hearts"@ja ;
+        lily:listOrder "5"^^xsd:integer ;
+        lily:resource <Song_Resonant_Hearts> ;
+        lily:cast [
+            schema:name "藤井彩加"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏目愛海"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q47582342> ;
+            lily:performAs <Sasaki_Ran> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "三村遙佳"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
+            lily:performAs <Hatsukano_Yo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "野中深愛"@ja ;
+            # lily:resource  ;
+            lily:performAs <Serizawa_Chikaru> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Treasure Every Day!"@ja ;
+        lily:listOrder "6"^^xsd:integer ;
+        lily:resource <Song_Treasure_Every_Day> ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Edel Lilie（Last Bullet MIX）"@ja ;
+        lily:listOrder "7"^^xsd:integer ;
+        lily:resource <Song_Edel_Lilie_Last_Bullet_MIX> ;
+        lily:cast [
+            schema:name "藤井彩加"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "～MC②～"@ja ;
+        lily:listOrder "8"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "藤井彩加"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏目愛海"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q47582342> ;
+            lily:performAs <Sasaki_Ran> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "三村遙佳"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
+            lily:performAs <Hatsukano_Yo> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "プリザーブド☆アイドル"@ja ;
+        lily:listOrder "9"^^xsd:integer ;
+        lily:resource <Song_Preserved_Idol> ;
+        lily:cast [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "摩訶不思議をダイスキダ"@ja ;
+        lily:listOrder "10"^^xsd:integer ;
+        lily:resource <Song_Maka_Fushigi_Wo_Daisukida> ;
+        lily:cast [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Oh!Precious!"@ja ;
+        lily:listOrder "11"^^xsd:integer ;
+        lily:resource <Song_Oh_Precious> ;
+        lily:cast [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Dearest Dream"@ja ;
+        lily:listOrder "12"^^xsd:integer ;
+        lily:resource <Song_Dearest_Dream> ;
+        lily:cast [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Dears&Tears"@ja ;
+        lily:listOrder "13"^^xsd:integer ;
+        lily:resource <Song_Dears_And_Tears> ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Overcast Sky"@ja ;
+        lily:listOrder "14"^^xsd:integer ;
+        lily:resource <Song_Overcast_Sky> ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "船戸ゆり絵"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q97347588>,
+                <http://ja.dbpedia.org/resource/船戸ゆり絵> ;
+            lily:performAs <Yokota_Haruna> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石見舞菜香"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q29479266>,
+                <http://ja.dbpedia.org/resource/石見舞菜香> ;
+            lily:performAs <Shiozaki_Suzume> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "～MC③～"@ja ;
+        lily:listOrder "15"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "船戸ゆり絵"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q97347588>,
+                <http://ja.dbpedia.org/resource/船戸ゆり絵> ;
+            lily:performAs <Yokota_Haruna> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石見舞菜香"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q29479266>,
+                <http://ja.dbpedia.org/resource/石見舞菜香> ;
+            lily:performAs <Shiozaki_Suzume> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "蕾の中の奇跡"@ja;
+        lily:listOrder "16"^^xsd:integer ;
+        lily:resource <Song_Tsubomi_No_Naka_No_Kiseki> ;
+        lily:cast [
+            schema:name "藤井彩加"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏目愛海"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q47582342> ;
+            lily:performAs <Sasaki_Ran> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "三村遙佳"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
+            lily:performAs <Hatsukano_Yo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "野中深愛"@ja ;
+            # lily:resource  ;
+            lily:performAs <Serizawa_Chikaru> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "リリィ♡リリィ♡GOGOリリィ♡"@ja ;
+        lily:listOrder "17"^^xsd:integer ;
+        lily:resource <Song_Lily_Lily_Go_Go_Lily> ;
+        lily:cast [
+            schema:name "夏目愛海"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q47582342> ;
+            lily:performAs <Sasaki_Ran> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "～MC④～"@ja ;
+        lily:listOrder "18"^^xsd:integer ;
+        lily:cast [
+            schema:name "藤井彩加"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏目愛海"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q47582342> ;
+            lily:performAs <Sasaki_Ran> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "三村遙佳"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
+            lily:performAs <Hatsukano_Yo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "野中深愛"@ja ;
+            # lily:resource  ;
+            lily:performAs <Serizawa_Chikaru> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Never Ending Dream"@ja ;
+        lily:listOrder "19"^^xsd:integer ;
+        lily:resource <Song_Never_Ending_Dream> ;
+        lily:cast [
+            schema:name "藤井彩加"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏目愛海"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q47582342> ;
+            lily:performAs <Sasaki_Ran> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "三村遙佳"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
+            lily:performAs <Hatsukano_Yo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "野中深愛"@ja ;
+            # lily:resource  ;
+            lily:performAs <Serizawa_Chikaru> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:ConcertDetail ;
 .
